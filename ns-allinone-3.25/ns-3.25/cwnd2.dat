@@ -1,0 +1,50 @@
+Waf: Entering directory `/home/csmajs/dpham073/CS169/ns-allinone-3.25/ns-3.25/build'
+Waf: Leaving directory `/home/csmajs/dpham073/CS169/ns-allinone-3.25/ns-3.25/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (3.592s)
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 10, y = 0
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 10.3841, y = 0.923277
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 10.2049, y = 1.90708
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 10.8136, y = 1.11368
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 10.8452, y = 2.11318
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 10.9797, y = 3.10409
+At time 2s client sent 1024 bytes to 10.1.2.4 port 9
+At time 2.01486s server received 1024 bytes from 10.1.3.2 port 49153
+At time 2.01486s server sent 1024 bytes to 10.1.3.2 port 49153
+At time 2.03054s client received 1024 bytes from 10.1.2.4 port 9
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 11.3273, y = 4.04175
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 12.013, y = 4.76955
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 12.4317, y = 5.67771
+At time 3s client sent 1024 bytes to 10.1.2.4 port 9
+At time 3.00525s server received 1024 bytes from 10.1.3.2 port 49153
+At time 3.00525s server sent 1024 bytes to 10.1.3.2 port 49153
+At time 3.01051s client received 1024 bytes from 10.1.2.4 port 9
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 11.4607, y = 5.91681
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 12.0155, y = 6.74878
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 13.0076, y = 6.62336
+At time 4s client sent 1024 bytes to 10.1.2.4 port 9
+At time 4.00525s server received 1024 bytes from 10.1.3.2 port 49153
+At time 4.00525s server sent 1024 bytes to 10.1.3.2 port 49153
+At time 4.01051s client received 1024 bytes from 10.1.2.4 port 9
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 12.6285, y = 5.698
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 13.32, y = 4.97559
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 13.1134, y = 3.99715
+At time 5s client sent 1024 bytes to 10.1.2.4 port 9
+At time 5.00525s server received 1024 bytes from 10.1.3.2 port 49153
+At time 5.00525s server sent 1024 bytes to 10.1.3.2 port 49153
+At time 5.01051s client received 1024 bytes from 10.1.2.4 port 9
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 13.8359, y = 4.68851
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 13.5953, y = 3.71789
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 12.7595, y = 4.26688
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 11.7629, y = 4.34913
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 11.2292, y = 5.19485
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 10.2344, y = 5.09394
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 9.3601, y = 4.60846
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 8.40025, y = 4.32795
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 9.14292, y = 4.99761
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 9.08299, y = 5.99581
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 8.26068, y = 5.42677
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 8.35917, y = 6.42191
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 7.66805, y = 7.14466
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 6.71414, y = 6.84456
+/NodeList/7/$ns3::MobilityModel/CourseChange x = 6.42489, y = 7.80181
