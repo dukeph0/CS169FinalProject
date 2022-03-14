@@ -32,6 +32,7 @@
 
 #include "udp-echo-server.h"
 
+#include "ns3/trace-source-accessor.h"
 namespace ns3 {
 
 NS_LOG_COMPONENT_DEFINE ("UdpEchoServerApplication");
@@ -49,6 +50,9 @@ UdpEchoServer::GetTypeId (void)
                    UintegerValue (9),
                    MakeUintegerAccessor (&UdpEchoServer::m_port),
                    MakeUintegerChecker<uint16_t> ())
+    .AddTraceSource ("Rx", "A new packet is received and is echoed",
+                     MakeTraceSourceAccessor (&UdpEchoServer::m_rxTrace),
+                     "ns3::Packet::TracedCallback")
   ;
   return tid;
 }
@@ -167,6 +171,7 @@ UdpEchoServer::HandleRead (Ptr<Socket> socket)
 
       NS_LOG_LOGIC ("Echoing packet");
       socket->SendTo (packet, 0, from);
+      m_rxTrace (packet);
 
       if (InetSocketAddress::IsMatchingType (from))
         {
