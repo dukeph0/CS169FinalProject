@@ -164,36 +164,68 @@ int main (int argc, char *argv[])
   myClient.SetAttribute ("Interval", TimeValue (Time ("0.00002"))); //packets/s
   myClient.SetAttribute ("PacketSize", UintegerValue (payloadSize));
 
-  // Install four UDP echo server applications on the AP Node
-  UdpEchoServerHelper echoServer (4);
-  ApplicationContainer serverApps = echoServer.Install(wifiApNode.Get(1));
-  serverApps.Start (Seconds (1.0));
-  serverApps.Stop (Seconds (10.0));
-
-  // Create echo client and set its attributes
-  
-  UdpEchoClientHelper echoClient (StaInterface.GetAddress(1), 9);
-  echoClient.SetAttribute ("MaxPackets", UintegerValue(1));
-  echoClient.SetAttribute ("Interval", TimeValue (Seconds (1.0)));
-  echoClient.SetAttribute ("PacketSize", UintegerValue (1024));
-  
-  
-
-  // Install four UDP client applications on each MS node connecting to each
-  // corresponding server application.
-
-  // Install echo server to node 1-4, and set start and stop time
-  for (int i = 1; i < 4; ++i){
-  ApplicationContainer clientApps = echoClient.Install(wifiStaNodes.Get (i));
-  serverApps.Start (Seconds (1.0));
-  serverApps.Stop (Seconds (10.0));
-  }
-  
-
   // Saturated UDP traffic from stations to AP
   ApplicationContainer clientApp1 = myClient.Install (wifiStaNodes);
   clientApp1.Start (Seconds (1.0));
   clientApp1.Stop (Seconds (simulationTime + 1));
+
+  // Install four UDP echo server applications on the AP Node
+  UdpEchoServerHelper echoServer (9);
+  ApplicationContainer serverApps1 = echoServer.Install(wifiApNode.Get(1));
+  serverApps1.Start (Seconds (1.0));
+  serverApps1.Stop (Seconds (10.0));
+  ApplicationContainer serverApps2 = echoServer.Install(wifiApNode.Get(2));
+  serverApps2.Start (Seconds (1.0));
+  serverApps2.Stop (Seconds (10.0));
+  ApplicationContainer serverApps3 = echoServer.Install(wifiApNode.Get(3));
+  serverApps3.Start (Seconds (1.0));
+  serverApps3.Stop (Seconds (10.0));
+  ApplicationContainer serverApps4 = echoServer.Install(wifiApNode.Get(4));
+  serverApps4.Start (Seconds (1.0));
+  serverApps4.Stop (Seconds (10.0));
+
+  // Create echo client and set its attributes
+  
+  UdpEchoClientHelper echoClient1 (StaInterface.GetAddress(1), 9);
+  echoClient1.SetAttribute ("MaxPackets", UintegerValue(1));
+  echoClient1.SetAttribute ("Interval", TimeValue (Seconds (0.1)));
+  echoClient1.SetAttribute ("PacketSize", UintegerValue (1024));
+
+  UdpEchoClientHelper echoClient2 (StaInterface.GetAddress(2), 9);
+  echoClient2.SetAttribute ("MaxPackets", UintegerValue(1));
+  echoClient2.SetAttribute ("Interval", TimeValue (Seconds (0.1)));
+  echoClient2.SetAttribute ("PacketSize", UintegerValue (1024));
+
+  UdpEchoClientHelper echoClient3 (StaInterface.GetAddress(3), 9);
+  echoClient3.SetAttribute ("MaxPackets", UintegerValue(1));
+  echoClient3.SetAttribute ("Interval", TimeValue (Seconds (0.1)));
+  echoClient3.SetAttribute ("PacketSize", UintegerValue (1024));
+
+  UdpEchoClientHelper echoClient4 (StaInterface.GetAddress(4), 9);
+  echoClient4.SetAttribute ("MaxPackets", UintegerValue(1));
+  echoClient4.SetAttribute ("Interval", TimeValue (Seconds (0.1)));
+  echoClient4.SetAttribute ("PacketSize", UintegerValue (1024));
+  
+  // Install four UDP client applications on each MS node connecting to each
+  // corresponding server application.
+
+  // Install echo server to node 1-4, and set start and stop time
+  ApplicationContainer clientApps1 = echoClient1.Install(wifiStaNodes.Get (1));
+  clientApps1.Start (Seconds (1.0));
+  clientApps1.Stop (Seconds (10.0));
+
+  ApplicationContainer clientApps2 = echoClient2.Install(wifiStaNodes.Get (2));
+  clientApps2.Start (Seconds (1.0));
+  clientApps2.Stop (Seconds (10.0));
+
+  ApplicationContainer clientApps3 = echoClient3.Install(wifiStaNodes.Get (3));
+  clientApps3.Start (Seconds (1.0));
+  clientApps3.Stop (Seconds (10.0));
+
+  ApplicationContainer clientApps4 = echoClient4.Install(wifiStaNodes.Get (4));
+  clientApps4.Start (Seconds (1.0));
+  clientApps4.Stop (Seconds (10.0));
+  
 
   phy.EnablePcap ("SimpleHtHiddenStations_Ap", apDevice.Get (0));
   phy.EnablePcap ("SimpleHtHiddenStations_Sta1", staDevices.Get (0));
@@ -204,9 +236,21 @@ int main (int argc, char *argv[])
   Simulator::Run ();
   Simulator::Destroy ();
 
-  uint32_t totalPacketsThrough = DynamicCast<UdpServer> (serverApp.Get (0))->GetReceived ();
-  double throughput = totalPacketsThrough * payloadSize * 8 / (simulationTime * 1000000.0);
-  std::cout << "Throughput: " << throughput << " Mbit/s" << '\n';
+  uint32_t totalPacketsThrough1 = DynamicCast<UdpServer> (serverApps1.Get (0))->GetReceived ();
+  double throughput1 = totalPacketsThrough1 * payloadSize * 8 / (simulationTime * 1000000.0);
+  std::cout << "ServerApp1 Throughput: " << throughput1 << " Mbit/s" << '\n';
+
+  uint32_t totalPacketsThrough2 = DynamicCast<UdpServer> (serverApps2.Get (0))->GetReceived ();
+  double throughput2 = totalPacketsThrough2 * payloadSize * 8 / (simulationTime * 1000000.0);
+  std::cout << "ServerApp2 Throughput: " << throughput2 << " Mbit/s" << '\n';
+
+  uint32_t totalPacketsThrough3 = DynamicCast<UdpServer> (serverApps3.Get (0))->GetReceived ();
+  double throughput3 = totalPacketsThrough3 * payloadSize * 8 / (simulationTime * 1000000.0);
+  std::cout << "ServerApp3 Throughput: " << throughput3 << " Mbit/s" << '\n';
+
+  uint32_t totalPacketsThrough4 = DynamicCast<UdpServer> (serverApps4.Get (0))->GetReceived ();
+  double throughput4 = totalPacketsThrough4 * payloadSize * 8 / (simulationTime * 1000000.0);
+  std::cout << "ServerApp4 Throughput: " << throughput4 << " Mbit/s" << '\n';
 
   return 0;
 }
