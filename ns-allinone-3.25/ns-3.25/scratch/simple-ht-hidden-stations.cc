@@ -159,29 +159,32 @@ int main (int argc, char *argv[])
   serverApp.Start (Seconds (0.0));
   serverApp.Stop (Seconds (simulationTime + 1));
 
-  UdpClientHelper myClient (ApInterface.GetAddress (0), 9);
+  UdpClientHelper myClient (ApInterface.GetAddress (1), 9);
   myClient.SetAttribute ("MaxPackets", UintegerValue (4294967295u));
   myClient.SetAttribute ("Interval", TimeValue (Time ("0.00002"))); //packets/s
   myClient.SetAttribute ("PacketSize", UintegerValue (payloadSize));
 
   // Install four UDP echo server applications on the AP Node
   UdpEchoServerHelper echoServer (4);
-  ApplicationContainer serverApps = echoServer.Install(wifiApNode.Get(0));
+  ApplicationContainer serverApps = echoServer.Install(wifiApNode.Get(1));
   serverApps.Start (Seconds (1.0));
   serverApps.Stop (Seconds (10.0));
 
   // Create echo client and set its attributes
-  UdpEchoClientHelper echoClient (ApInterface.GetAddress(1), 9);
+  
+  UdpEchoClientHelper echoClient (StaInterface.GetAddress(1), 9);
   echoClient.SetAttribute ("MaxPackets", UintegerValue(1));
   echoClient.SetAttribute ("Interval", TimeValue (Seconds (1.0)));
   echoClient.SetAttribute ("PacketSize", UintegerValue (1024));
+  
+  
 
   // Install four UDP client applications on each MS node connecting to each
   // corresponding server application.
 
   // Install echo server to node 1-4, and set start and stop time
   for (int i = 1; i < 4; ++i){
-  ApplicationContainer serverApps = echoServer.Install(wifiStaNodes.Get (i));
+  ApplicationContainer clientApps = echoClient.Install(wifiStaNodes.Get (i));
   serverApps.Start (Seconds (1.0));
   serverApps.Stop (Seconds (10.0));
   }
