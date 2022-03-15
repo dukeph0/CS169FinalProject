@@ -80,7 +80,7 @@ int main (int argc, char *argv[])
   Config::SetDefault ("ns3::RangePropagationLossModel::MaxRange", DoubleValue (5));
 
   NodeContainer wifiStaNodes;
-  wifiStaNodes.Create (2);
+  wifiStaNodes.Create (4);  // Increase number of station nodes (MS) to 4
   NodeContainer wifiApNode;
   wifiApNode.Create (1);
 
