@@ -25,6 +25,7 @@
 #include "ns3/mobility-module.h"
 #include "ns3/ipv4-global-routing-helper.h"
 #include "ns3/internet-module.h"
+#include "ns3/point-to-point-module.h"
 
 // This example considers two hidden stations in an 802.11n network which supports MPDU aggregation.
 // The user can specify whether RTS/CTS is used and can set the number of aggregated MPDUs.
@@ -80,9 +81,13 @@ int main (int argc, char *argv[])
   Config::SetDefault ("ns3::RangePropagationLossModel::MaxRange", DoubleValue (5));
 
   NodeContainer wifiStaNodes;
-  wifiStaNodes.Create (2);
+  wifiStaNodes.Create (4);
   NodeContainer wifiApNode;
   wifiApNode.Create (1);
+
+  // Create nodes
+  NodeContainer nodes;
+  nodes.Create (4);
 
   YansWifiChannelHelper channel = YansWifiChannelHelper::Default ();
   channel.AddPropagationLoss ("ns3::RangePropagationLossModel"); //wireless range limited to 5 meters!
@@ -121,9 +126,11 @@ int main (int argc, char *argv[])
   // AP is between the two stations, each station being located at 5 meters from the AP.
   // The distance between the two stations is thus equal to 10 meters.
   // Since the wireless range is limited to 5 meters, the two stations are hidden from each other.
-  positionAlloc->Add (Vector (5.0, 0.0, 0.0));
-  positionAlloc->Add (Vector (0.0, 0.0, 0.0));
-  positionAlloc->Add (Vector (10.0, 0.0, 0.0));
+  positionAlloc->Add (Vector (5.0, 5.0, 0.0));  //AP:n0
+  positionAlloc->Add (Vector (5.0, 10.0, 0.0)); //MS:n1
+  positionAlloc->Add (Vector (0.0, 5.0, 0.0));  //MS:n2
+  positionAlloc->Add (Vector (5.0, 0.0, 0.0));  //MS:n3
+  positionAlloc->Add (Vector (10.0, 5.0, 0.0)); //MS:n4
   mobility.SetPositionAllocator (positionAlloc);
 
   mobility.SetMobilityModel ("ns3::ConstantPositionMobilityModel");
@@ -143,6 +150,8 @@ int main (int argc, char *argv[])
   StaInterface = address.Assign (staDevices);
   Ipv4InterfaceContainer ApInterface;
   ApInterface = address.Assign (apDevice);
+  // Ipv4InterfaceContainer MsInterface;
+  // MsInterface = address.Assign ()
 
   // Setting applications
   UdpServerHelper myServer (9);
@@ -154,6 +163,29 @@ int main (int argc, char *argv[])
   myClient.SetAttribute ("MaxPackets", UintegerValue (4294967295u));
   myClient.SetAttribute ("Interval", TimeValue (Time ("0.00002"))); //packets/s
   myClient.SetAttribute ("PacketSize", UintegerValue (payloadSize));
+
+  // Install four UDP echo server applications on the AP Node
+  UdpEchoServerHelper echoServer (4);
+  ApplicationContainer serverApps = echoServer.Install(wifiApNode.Get(0));
+  serverApps.Start (Seconds (1.0));
+  serverApps.Stop (Seconds (10.0));
+
+  // Create echo client and set its attributes
+  UdpEchoClientHelper echoClient (ApInterface.GetAddress(1), 9);
+  echoClient.SetAttribute ("MaxPackets", UintegerValue(1));
+  echoClient.SetAttribute ("Interval", TimeValue (Seconds (1.0)));
+  echoClient.SetAttribute ("PacketSize", UintegerValue (1024));
+
+  // Install four UDP client applications on each MS node connecting to each
+  // corresponding server application.
+
+  // Install echo server to node 1-4, and set start and stop time
+  for (int i = 1; i < 4; ++i){
+  ApplicationContainer serverApps = echoServer.Install(wifiStaNodes.Get (i));
+  serverApps.Start (Seconds (1.0));
+  serverApps.Stop (Seconds (10.0));
+  }
+  
 
   // Saturated UDP traffic from stations to AP
   ApplicationContainer clientApp1 = myClient.Install (wifiStaNodes);
