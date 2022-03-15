@@ -118,9 +118,7 @@ int main (int argc, char *argv[])
   MobilityHelper mobility;
   Ptr<ListPositionAllocator> positionAlloc = CreateObject<ListPositionAllocator> ();
 
-  // AP is between the two stations, each station being located at 5 meters from the AP.
-  // The distance between the two stations is thus equal to 10 meters.
-  // Since the wireless range is limited to 5 meters, the two stations are hidden from each other.
+  // Create MS and AP locations according to the project paper
   positionAlloc->Add (Vector (5.0, 5.0, 0.0));  //AP:n0
   positionAlloc->Add (Vector (5.0, 10.0, 0.0)); //MS:n1
   positionAlloc->Add (Vector (0.0, 5.0, 0.0));  //MS:n2
@@ -157,6 +155,24 @@ int main (int argc, char *argv[])
   myClient.SetAttribute ("Interval", TimeValue (Time ("0.00002"))); //packets/s
   myClient.SetAttribute ("PacketSize", UintegerValue (payloadSize));
 
+  // UdpEchoServerHelper echoServer (9);
+
+  // ApplicationContainer serverApp1 = echoServer.Install(wifiApNode.Get(1));
+  // serverApp1.Start(Seconds(1.0));
+  // serverApp1.Stop(Seconds(10.0));
+
+  // ApplicationContainer serverApp2 = echoServer.Install(wifiApNode.Get(2));
+  // serverApp2.Start(Seconds(1.0));
+  // serverApp2.Stop(Seconds(10.0));
+
+  // ApplicationContainer serverApp3 = echoServer.Install(wifiApNode.Get(3));
+  // serverApp3.Start(Seconds(1.0));
+  // serverApp3.Stop(Seconds(10.0));
+
+  // ApplicationContainer serverApp4 = echoServer.Install(wifiApNode.Get(4));
+  // serverApp4.Start(Seconds(1.0));
+  // serverApp4.Stop(Seconds(10.0));
+
   // Saturated UDP traffic from stations to AP
   ApplicationContainer clientApp1 = myClient.Install (wifiStaNodes);
   clientApp1.Start (Seconds (1.0));
@@ -174,6 +190,10 @@ int main (int argc, char *argv[])
   uint32_t totalPacketsThrough = DynamicCast<UdpServer> (serverApp.Get (0))->GetReceived ();
   double throughput = totalPacketsThrough * payloadSize * 8 / (simulationTime * 1000000.0);
   std::cout << "Throughput: " << throughput << " Mbit/s" << '\n';
+
+  // uint32_t totalPacketsThrough1 = DynamicCast<UdpServer> (serverApp1.Get (0))->GetReceived ();
+  // double throughput1 = totalPacketsThrough1 * payloadSize * 8 / (simulationTime * 1000000.0);
+  // std::cout << "Throughput: " << throughput1 << " Mbit/s" << '\n';
 
   return 0;
 }

@@ -76,18 +76,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/fd-net-device/examples/realtime-dummy-network.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/fd-net-device/examples/realtime-dummy-network.cc.3.o", 
-    "file": "../src/fd-net-device/examples/realtime-dummy-network.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/applications/model/udp-server.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/applications/model/udp-server.cc.1.o", 
-    "file": "../src/applications/model/udp-server.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/wimax/model/service-flow-manager.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/wimax/model/service-flow-manager.cc.1.o", 
-    "file": "../src/wimax/model/service-flow-manager.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -Isrc/sixlowpan -I../src/sixlowpan -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/sixlowpan/model/sixlowpan-header.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/sixlowpan/model/sixlowpan-header.cc.1.o", 
+    "file": "../src/sixlowpan/model/sixlowpan-header.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -208,11 +198,6 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/internet/model/ipv6-raw-socket-factory-impl.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet/model/ipv6-raw-socket-factory-impl.cc.1.o", 
     "file": "../src/internet/model/ipv6-raw-socket-factory-impl.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/lte/model/lte-ffr-distributed-algorithm.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/model/lte-ffr-distributed-algorithm.cc.1.o", 
-    "file": "../src/lte/model/lte-ffr-distributed-algorithm.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -431,11 +416,6 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/model/calendar-scheduler.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/model/calendar-scheduler.cc.1.o", 
-    "file": "../src/core/model/calendar-scheduler.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/routing/dynamic-global-routing.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/examples/routing/dynamic-global-routing.cc.1.o", 
     "file": "../examples/routing/dynamic-global-routing.cc"
   }, 
@@ -461,8 +441,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -Isrc/sixlowpan -I../src/sixlowpan -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/sixlowpan/model/sixlowpan-header.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/sixlowpan/model/sixlowpan-header.cc.1.o", 
-    "file": "../src/sixlowpan/model/sixlowpan-header.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/wimax/model/service-flow-manager.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/wimax/model/service-flow-manager.cc.1.o", 
+    "file": "../src/wimax/model/service-flow-manager.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -493,6 +473,11 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/tcp-cong-avoid-test.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet/test/tcp-cong-avoid-test.cc.3.o", 
     "file": "../src/internet/test/tcp-cong-avoid-test.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/mesh/model/dot11s/peer-link-frame.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/mesh/model/dot11s/peer-link-frame.cc.1.o", 
+    "file": "../src/mesh/model/dot11s/peer-link-frame.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -618,11 +603,6 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/antenna -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/antenna/test\"' ../src/antenna/test/test-cosine-antenna.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/antenna/test/test-cosine-antenna.cc.3.o", 
     "file": "../src/antenna/test/test-cosine-antenna.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/internet/model/tcp-socket.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet/model/tcp-socket.cc.1.o", 
-    "file": "../src/internet/model/tcp-socket.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -831,6 +811,11 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/antenna -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/antenna/test\"' ../src/antenna/test/test-angles.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/antenna/test/test-angles.cc.3.o", 
+    "file": "../src/antenna/test/test-angles.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/netanim/examples/uan-animation.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/netanim/examples/uan-animation.cc.5.o", 
     "file": "../src/netanim/examples/uan-animation.cc"
   }, 
@@ -848,6 +833,11 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/wimax/model/service-flow-record.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/wimax/model/service-flow-record.cc.1.o", 
     "file": "../src/wimax/model/service-flow-record.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/uan/examples/uan-cw-example.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/uan/examples/uan-cw-example.cc.1.o", 
+    "file": "../src/uan/examples/uan-cw-example.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -896,6 +886,11 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/lte/model/lte-vendor-specific-parameters.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/model/lte-vendor-specific-parameters.cc.1.o", 
+    "file": "../src/lte/model/lte-vendor-specific-parameters.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 '-DTAP_DEV_CREATOR=\"ns3.25-tap-device-creator-debug\"' '-DRAW_SOCK_CREATOR=\"ns3.25-raw-sock-creator-debug\"' -DHAVE_GSL=1 ../src/fd-net-device/model/fd-net-device.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/fd-net-device/model/fd-net-device.cc.1.o", 
     "file": "../src/fd-net-device/model/fd-net-device.cc"
   }, 
@@ -908,6 +903,11 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/socket/socket-options-ipv6.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/examples/socket/socket-options-ipv6.cc.4.o", 
     "file": "../examples/socket/socket-options-ipv6.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/lte -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/lte/test\"' ../src/lte/test/lte-test-uplink-sinr.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/test/lte-test-uplink-sinr.cc.3.o", 
+    "file": "../src/lte/test/lte-test-uplink-sinr.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -1146,6 +1146,11 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/internet/helper/ipv6-address-helper.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet/helper/ipv6-address-helper.cc.1.o", 
+    "file": "../src/internet/helper/ipv6-address-helper.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/lte/examples/lena-profiling.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/examples/lena-profiling.cc.6.o", 
     "file": "../src/lte/examples/lena-profiling.cc"
   }, 
@@ -1336,8 +1341,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/lte/model/ff-mac-common.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/model/ff-mac-common.cc.1.o", 
-    "file": "../src/lte/model/ff-mac-common.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/core -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/core/test\"' ../src/core/test/watchdog-test-suite.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/test/watchdog-test-suite.cc.3.o", 
+    "file": "../src/core/test/watchdog-test-suite.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -1423,6 +1428,11 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/internet/model/ipv6-pmtu-cache.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet/model/ipv6-pmtu-cache.cc.1.o", 
     "file": "../src/internet/model/ipv6-pmtu-cache.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/mpi/model/mpi-interface.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/mpi/model/mpi-interface.cc.1.o", 
+    "file": "../src/mpi/model/mpi-interface.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -1611,8 +1621,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/internet/helper/ipv6-address-helper.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet/helper/ipv6-address-helper.cc.1.o", 
-    "file": "../src/internet/helper/ipv6-address-helper.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/internet/helper/ipv4-routing-helper.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet/helper/ipv4-routing-helper.cc.1.o", 
+    "file": "../src/internet/helper/ipv4-routing-helper.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -1626,8 +1636,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/lte/examples/lena-intercell-interference.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/examples/lena-intercell-interference.cc.4.o", 
-    "file": "../src/lte/examples/lena-intercell-interference.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/fd-net-device/examples/realtime-dummy-network.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/fd-net-device/examples/realtime-dummy-network.cc.3.o", 
+    "file": "../src/fd-net-device/examples/realtime-dummy-network.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -1643,11 +1653,6 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/ipv4-address-helper-test-suite.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet/test/ipv4-address-helper-test-suite.cc.3.o", 
     "file": "../src/internet/test/ipv4-address-helper-test-suite.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/internet/helper/ipv4-routing-helper.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet/helper/ipv4-routing-helper.cc.1.o", 
-    "file": "../src/internet/helper/ipv4-routing-helper.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -1683,6 +1688,11 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/wimax/model/simple-ofdm-send-param.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/wimax/model/simple-ofdm-send-param.cc.1.o", 
     "file": "../src/wimax/model/simple-ofdm-send-param.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/antenna/model/parabolic-antenna-model.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/antenna/model/parabolic-antenna-model.cc.1.o", 
+    "file": "../src/antenna/model/parabolic-antenna-model.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -1818,11 +1828,6 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/spectrum/model/spectrum-analyzer.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/spectrum/model/spectrum-analyzer.cc.1.o", 
     "file": "../src/spectrum/model/spectrum-analyzer.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/lte/examples/lena-fading.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/examples/lena-fading.cc.3.o", 
-    "file": "../src/lte/examples/lena-fading.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -2011,8 +2016,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/uan/examples/uan-cw-example.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/uan/examples/uan-cw-example.cc.1.o", 
-    "file": "../src/uan/examples/uan-cw-example.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/internet/model/tcp-socket.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet/model/tcp-socket.cc.1.o", 
+    "file": "../src/internet/model/tcp-socket.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -2043,6 +2048,11 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/fd-net-device/helper/raw-sock-creator.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/fd-net-device/helper/raw-sock-creator.cc.5.o", 
     "file": "../src/fd-net-device/helper/raw-sock-creator.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/wireless/wifi-clear-channel-cmu.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/examples/wireless/wifi-clear-channel-cmu.cc.3.o", 
+    "file": "../examples/wireless/wifi-clear-channel-cmu.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -2131,11 +2141,6 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/wimax/model/cid-factory.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/wimax/model/cid-factory.cc.1.o", 
-    "file": "../src/wimax/model/cid-factory.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/lte/model/lte-spectrum-value-helper.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/model/lte-spectrum-value-helper.cc.1.o", 
     "file": "../src/lte/model/lte-spectrum-value-helper.cc"
   }, 
@@ -2201,8 +2206,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/bridge/examples/csma-bridge.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/bridge/examples/csma-bridge.cc.1.o", 
-    "file": "../src/bridge/examples/csma-bridge.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/mobility/examples/mobility-trace-example.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/mobility/examples/mobility-trace-example.cc.4.o", 
+    "file": "../src/mobility/examples/mobility-trace-example.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -2316,11 +2321,6 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/model/make-event.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/model/make-event.cc.1.o", 
-    "file": "../src/core/model/make-event.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/core -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/core/test\"' ../src/core/test/timer-test-suite.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/test/timer-test-suite.cc.3.o", 
     "file": "../src/core/test/timer-test-suite.cc"
   }, 
@@ -2333,11 +2333,6 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/core -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/core/test\"' ../src/core/test/type-id-test-suite.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/test/type-id-test-suite.cc.3.o", 
     "file": "../src/core/test/type-id-test-suite.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/ipv6/ping6.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/examples/ipv6/ping6.cc.2.o", 
-    "file": "../examples/ipv6/ping6.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -2446,6 +2441,11 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -Isrc/dsr -I../src/dsr -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/dsr/model/dsr-fs-header.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/dsr/model/dsr-fs-header.cc.1.o", 
+    "file": "../src/dsr/model/dsr-fs-header.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/spectrum/model/spectrum-converter.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/spectrum/model/spectrum-converter.cc.1.o", 
     "file": "../src/spectrum/model/spectrum-converter.cc"
   }, 
@@ -2523,11 +2523,6 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/topology-read/model/topology-reader.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/topology-read/model/topology-reader.cc.1.o", 
     "file": "../src/topology-read/model/topology-reader.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/udp-client-server/udp-trace-client-server.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/examples/udp-client-server/udp-trace-client-server.cc.2.o", 
-    "file": "../examples/udp-client-server/udp-trace-client-server.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -2636,8 +2631,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/core -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/core/test\"' ../src/core/test/config-test-suite.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/test/config-test-suite.cc.3.o", 
-    "file": "../src/core/test/config-test-suite.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/wifi/model/wifi-phy.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/wifi/model/wifi-phy.cc.1.o", 
+    "file": "../src/wifi/model/wifi-phy.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -2661,8 +2656,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../scratch/myfourth.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/scratch/myfourth.cc.7.o", 
-    "file": "../scratch/myfourth.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/wifi/model/edca-txop-n.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/wifi/model/edca-txop-n.cc.1.o", 
+    "file": "../src/wifi/model/edca-txop-n.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -2701,11 +2696,6 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/aodv -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/aodv/test\"' ../src/aodv/test/aodv-test-suite.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/aodv/test/aodv-test-suite.cc.3.o", 
-    "file": "../src/aodv/test/aodv-test-suite.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -fno-strict-aliasing -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fvisibility=hidden -Wno-array-bounds -pthread -I. -I.. -Isrc/flow-monitor/bindings -I../src/flow-monitor/bindings -I/usr/include/python2.7 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DNS_DEPRECATED= -DNS3_DEPRECATED_H -DHAVE_PYEXT=1 -D_GNU_SOURCE -DNDEBUG -D_GNU_SOURCE -DHAVE_GSL=1 src/flow-monitor/bindings/ns3module.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/flow-monitor/bindings/ns3module.cc.7.o", 
     "file": "src/flow-monitor/bindings/ns3module.cc"
   }, 
@@ -2721,8 +2711,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/wifi/helper/wifi-helper.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/wifi/helper/wifi-helper.cc.1.o", 
-    "file": "../src/wifi/helper/wifi-helper.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/lte/model/lte-ffr-distributed-algorithm.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/model/lte-ffr-distributed-algorithm.cc.1.o", 
+    "file": "../src/lte/model/lte-ffr-distributed-algorithm.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -2758,6 +2748,11 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/dsr/examples/dsr.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/dsr/examples/dsr.cc.1.o", 
     "file": "../src/dsr/examples/dsr.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/stats/wifi-example-sim.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/examples/stats/wifi-example-sim.cc.1.o", 
+    "file": "../examples/stats/wifi-example-sim.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -2946,8 +2941,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/aodv -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/aodv/test\"' ../src/aodv/test/bug-772.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/aodv/test/bug-772.cc.3.o", 
-    "file": "../src/aodv/test/bug-772.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/ipv4-packet-info-tag-test-suite.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet/test/ipv4-packet-info-tag-test-suite.cc.3.o", 
+    "file": "../src/internet/test/ipv4-packet-info-tag-test-suite.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -3001,8 +2996,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/antenna -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/antenna/test\"' ../src/antenna/test/test-angles.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/antenna/test/test-angles.cc.3.o", 
-    "file": "../src/antenna/test/test-angles.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/tcp/tcp-variants-comparison.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/examples/tcp/tcp-variants-comparison.cc.9.o", 
+    "file": "../examples/tcp/tcp-variants-comparison.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -3031,8 +3026,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/examples/sample-random-variable-stream.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/examples/sample-random-variable-stream.cc.7.o", 
-    "file": "../src/core/examples/sample-random-variable-stream.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/buildings -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/buildings/test\"' ../src/buildings/test/building-position-allocator-test.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/buildings/test/building-position-allocator-test.cc.3.o", 
+    "file": "../src/buildings/test/building-position-allocator-test.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -3123,11 +3118,6 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/error-channel.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet/test/error-channel.cc.3.o", 
     "file": "../src/internet/test/error-channel.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/mobility/examples/mobility-trace-example.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/mobility/examples/mobility-trace-example.cc.4.o", 
-    "file": "../src/mobility/examples/mobility-trace-example.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -3241,8 +3231,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/wifi/model/edca-txop-n.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/wifi/model/edca-txop-n.cc.1.o", 
-    "file": "../src/wifi/model/edca-txop-n.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../scratch/myfourth.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/scratch/myfourth.cc.7.o", 
+    "file": "../scratch/myfourth.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -3268,11 +3258,6 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/netanim/examples/wireless-animation.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/netanim/examples/wireless-animation.cc.4.o", 
     "file": "../src/netanim/examples/wireless-animation.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/internet/model/tcp-option.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet/model/tcp-option.cc.1.o", 
-    "file": "../src/internet/model/tcp-option.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -3336,11 +3321,6 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/wave/model/channel-coordinator.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/wave/model/channel-coordinator.cc.1.o", 
-    "file": "../src/wave/model/channel-coordinator.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/wave/examples/wave-simple-80211p.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/wave/examples/wave-simple-80211p.cc.1.o", 
     "file": "../src/wave/examples/wave-simple-80211p.cc"
   }, 
@@ -3353,11 +3333,6 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/uan/model/uan-phy-dual.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/uan/model/uan-phy-dual.cc.1.o", 
     "file": "../src/uan/model/uan-phy-dual.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -fno-strict-aliasing -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fvisibility=hidden -Wno-array-bounds -pthread -I. -I.. -Isrc/bridge/bindings -I../src/bridge/bindings -I/usr/include/python2.7 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DNS_DEPRECATED= -DNS3_DEPRECATED_H -DHAVE_PYEXT=1 -D_GNU_SOURCE -DNDEBUG -D_GNU_SOURCE -DHAVE_GSL=1 src/bridge/bindings/ns3module.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/bridge/bindings/ns3module.cc.5.o", 
-    "file": "src/bridge/bindings/ns3module.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -3436,8 +3411,13 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/lte/model/lte-anr.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/model/lte-anr.cc.1.o", 
-    "file": "../src/lte/model/lte-anr.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/udp-client-server/udp-trace-client-server.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/examples/udp-client-server/udp-trace-client-server.cc.2.o", 
+    "file": "../examples/udp-client-server/udp-trace-client-server.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/core -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/core/test\"' ../src/core/test/random-variable-stream-test-suite.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/test/random-variable-stream-test-suite.cc.3.o", 
+    "file": "../src/core/test/random-variable-stream-test-suite.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -3453,6 +3433,11 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/realtime/realtime-udp-echo.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/examples/realtime/realtime-udp-echo.cc.1.o", 
     "file": "../examples/realtime/realtime-udp-echo.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/model/fatal-impl.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/model/fatal-impl.cc.1.o", 
+    "file": "../src/core/model/fatal-impl.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -3576,11 +3561,6 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/core -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/core/test\"' ../src/core/test/watchdog-test-suite.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/test/watchdog-test-suite.cc.3.o", 
-    "file": "../src/core/test/watchdog-test-suite.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/lte/model/lte-control-messages.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/model/lte-control-messages.cc.1.o", 
     "file": "../src/lte/model/lte-control-messages.cc"
   }, 
@@ -3621,8 +3601,13 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/lte/model/lte-handover-management-sap.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/model/lte-handover-management-sap.cc.1.o", 
-    "file": "../src/lte/model/lte-handover-management-sap.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -fno-strict-aliasing -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fvisibility=hidden -Wno-array-bounds -pthread -I. -I.. -Isrc/bridge/bindings -I../src/bridge/bindings -I/usr/include/python2.7 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DNS_DEPRECATED= -DNS3_DEPRECATED_H -DHAVE_PYEXT=1 -D_GNU_SOURCE -DNDEBUG -D_GNU_SOURCE -DHAVE_GSL=1 src/bridge/bindings/ns3module.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/bridge/bindings/ns3module.cc.5.o", 
+    "file": "src/bridge/bindings/ns3module.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/stats/model/omnet-data-output.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/stats/model/omnet-data-output.cc.1.o", 
+    "file": "../src/stats/model/omnet-data-output.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -3736,11 +3721,6 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/flow-monitor/model/ipv4-flow-classifier.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/flow-monitor/model/ipv4-flow-classifier.cc.1.o", 
-    "file": "../src/flow-monitor/model/ipv4-flow-classifier.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/wimax/model/bs-scheduler.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/wimax/model/bs-scheduler.cc.1.o", 
     "file": "../src/wimax/model/bs-scheduler.cc"
   }, 
@@ -3776,8 +3756,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/lte -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/lte/test\"' ../src/lte/test/lte-test-fdmt-ff-mac-scheduler.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/test/lte-test-fdmt-ff-mac-scheduler.cc.3.o", 
-    "file": "../src/lte/test/lte-test-fdmt-ff-mac-scheduler.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/lte/examples/lena-intercell-interference.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/examples/lena-intercell-interference.cc.4.o", 
+    "file": "../src/lte/examples/lena-intercell-interference.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -3798,11 +3778,6 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/wifi/model/mac-low.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/wifi/model/mac-low.cc.1.o", 
     "file": "../src/wifi/model/mac-low.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/point-to-point/model/point-to-point-channel.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/point-to-point/model/point-to-point-channel.cc.1.o", 
-    "file": "../src/point-to-point/model/point-to-point-channel.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -3841,8 +3816,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/internet-apps/helper/radvd-helper.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet-apps/helper/radvd-helper.cc.1.o", 
-    "file": "../src/internet-apps/helper/radvd-helper.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -fno-strict-aliasing -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fvisibility=hidden -Wno-array-bounds -pthread -I. -I.. -Isrc/csma/bindings -I../src/csma/bindings -I/usr/include/python2.7 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DNS_DEPRECATED= -DNS3_DEPRECATED_H -DHAVE_PYEXT=1 -D_GNU_SOURCE -DNDEBUG -D_GNU_SOURCE -DHAVE_GSL=1 src/csma/bindings/ns3module.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/csma/bindings/ns3module.cc.5.o", 
+    "file": "src/csma/bindings/ns3module.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -3881,18 +3856,18 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/lte/model/rr-ff-mac-scheduler.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/model/rr-ff-mac-scheduler.cc.1.o", 
-    "file": "../src/lte/model/rr-ff-mac-scheduler.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/network/utils/packet-probe.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/network/utils/packet-probe.cc.1.o", 
     "file": "../src/network/utils/packet-probe.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/stats/wifi-example-sim.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/examples/stats/wifi-example-sim.cc.1.o", 
-    "file": "../examples/stats/wifi-example-sim.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/internet/model/tcp-option.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet/model/tcp-option.cc.1.o", 
+    "file": "../src/internet/model/tcp-option.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/uan/model/uan-prop-model-ideal.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/uan/model/uan-prop-model-ideal.cc.1.o", 
+    "file": "../src/uan/model/uan-prop-model-ideal.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -3921,8 +3896,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/examples/main-ptr.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/examples/main-ptr.cc.3.o", 
-    "file": "../src/core/examples/main-ptr.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/spectrum/model/tv-spectrum-transmitter.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/spectrum/model/tv-spectrum-transmitter.cc.1.o", 
+    "file": "../src/spectrum/model/tv-spectrum-transmitter.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -3966,11 +3941,6 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/tcp/tcp-variants-comparison.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/examples/tcp/tcp-variants-comparison.cc.9.o", 
-    "file": "../examples/tcp/tcp-variants-comparison.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/spectrum/helper/spectrum-helper.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/spectrum/helper/spectrum-helper.cc.1.o", 
     "file": "../src/spectrum/helper/spectrum-helper.cc"
   }, 
@@ -4003,6 +3973,11 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/model/watchdog.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/model/watchdog.cc.1.o", 
     "file": "../src/core/model/watchdog.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/lte/model/lte-anr.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/model/lte-anr.cc.1.o", 
+    "file": "../src/lte/model/lte-anr.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -4216,6 +4191,11 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/network/utils/crc32.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/network/utils/crc32.cc.1.o", 
+    "file": "../src/network/utils/crc32.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/tcp-fast-retr-test.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet/test/tcp-fast-retr-test.cc.3.o", 
     "file": "../src/internet/test/tcp-fast-retr-test.cc"
   }, 
@@ -4243,6 +4223,11 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/model/map-scheduler.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/model/map-scheduler.cc.1.o", 
     "file": "../src/core/model/map-scheduler.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/wifi/model/mgt-headers.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/wifi/model/mgt-headers.cc.1.o", 
+    "file": "../src/wifi/model/mgt-headers.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -4291,8 +4276,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/energy/model/simple-device-energy-model.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/energy/model/simple-device-energy-model.cc.1.o", 
-    "file": "../src/energy/model/simple-device-energy-model.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/model/calendar-scheduler.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/model/calendar-scheduler.cc.1.o", 
+    "file": "../src/core/model/calendar-scheduler.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -4466,8 +4451,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/spectrum/model/tv-spectrum-transmitter.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/spectrum/model/tv-spectrum-transmitter.cc.1.o", 
-    "file": "../src/spectrum/model/tv-spectrum-transmitter.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/lte/model/ff-mac-common.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/model/ff-mac-common.cc.1.o", 
+    "file": "../src/lte/model/ff-mac-common.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -4526,8 +4511,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/mobility/model/steady-state-random-waypoint-mobility-model.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/mobility/model/steady-state-random-waypoint-mobility-model.cc.1.o", 
-    "file": "../src/mobility/model/steady-state-random-waypoint-mobility-model.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/model/make-event.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/model/make-event.cc.1.o", 
+    "file": "../src/core/model/make-event.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -4611,8 +4596,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/mesh/helper/flame/flame-installer.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/mesh/helper/flame/flame-installer.cc.1.o", 
-    "file": "../src/mesh/helper/flame/flame-installer.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/lte/model/rr-ff-mac-scheduler.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/model/rr-ff-mac-scheduler.cc.1.o", 
+    "file": "../src/lte/model/rr-ff-mac-scheduler.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -4631,8 +4616,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/wifi/model/mgt-headers.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/wifi/model/mgt-headers.cc.1.o", 
-    "file": "../src/wifi/model/mgt-headers.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/mobility -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/mobility/test\"' ../src/mobility/test/ns2-mobility-helper-test-suite.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/mobility/test/ns2-mobility-helper-test-suite.cc.3.o", 
+    "file": "../src/mobility/test/ns2-mobility-helper-test-suite.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -4721,11 +4706,6 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/model/type-id.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/model/type-id.cc.1.o", 
-    "file": "../src/core/model/type-id.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/fd-net-device/examples/fd-emu-ping.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/fd-net-device/examples/fd-emu-ping.cc.5.o", 
     "file": "../src/fd-net-device/examples/fd-emu-ping.cc"
   }, 
@@ -4778,6 +4758,11 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/wifi/model/msdu-aggregator.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/wifi/model/msdu-aggregator.cc.1.o", 
     "file": "../src/wifi/model/msdu-aggregator.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/wifi/helper/wifi-helper.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/wifi/helper/wifi-helper.cc.1.o", 
+    "file": "../src/wifi/helper/wifi-helper.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -4881,8 +4866,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/wireless/vht-wifi-network.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/examples/wireless/vht-wifi-network.cc.17.o", 
-    "file": "../examples/wireless/vht-wifi-network.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/internet-apps/helper/radvd-helper.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet-apps/helper/radvd-helper.cc.1.o", 
+    "file": "../src/internet-apps/helper/radvd-helper.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -4961,8 +4946,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/core -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/core/test\"' ../src/core/test/random-variable-stream-test-suite.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/test/random-variable-stream-test-suite.cc.3.o", 
-    "file": "../src/core/test/random-variable-stream-test-suite.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/aodv -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/aodv/test\"' ../src/aodv/test/aodv-test-suite.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/aodv/test/aodv-test-suite.cc.3.o", 
+    "file": "../src/aodv/test/aodv-test-suite.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -5031,8 +5016,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/model/fatal-impl.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/model/fatal-impl.cc.1.o", 
-    "file": "../src/core/model/fatal-impl.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/internet/model/ipv6-extension-demux.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet/model/ipv6-extension-demux.cc.1.o", 
+    "file": "../src/internet/model/ipv6-extension-demux.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -5051,8 +5036,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/mobility -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/mobility/test\"' ../src/mobility/test/ns2-mobility-helper-test-suite.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/mobility/test/ns2-mobility-helper-test-suite.cc.3.o", 
-    "file": "../src/mobility/test/ns2-mobility-helper-test-suite.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/model/type-id.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/model/type-id.cc.1.o", 
+    "file": "../src/core/model/type-id.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -5086,8 +5071,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/stats/model/omnet-data-output.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/stats/model/omnet-data-output.cc.1.o", 
-    "file": "../src/stats/model/omnet-data-output.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/wireless/vht-wifi-network.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/examples/wireless/vht-wifi-network.cc.17.o", 
+    "file": "../examples/wireless/vht-wifi-network.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -5201,6 +5186,11 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/applications/helper/udp-echo-helper.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/applications/helper/udp-echo-helper.cc.1.o", 
+    "file": "../src/applications/helper/udp-echo-helper.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/network -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/network/test\"' ../src/network/test/buffer-test.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/network/test/buffer-test.cc.3.o", 
     "file": "../src/network/test/buffer-test.cc"
   }, 
@@ -5231,18 +5221,18 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/ipv4-packet-info-tag-test-suite.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet/test/ipv4-packet-info-tag-test-suite.cc.3.o", 
-    "file": "../src/internet/test/ipv4-packet-info-tag-test-suite.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/aodv -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/aodv/test\"' ../src/aodv/test/bug-772.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/aodv/test/bug-772.cc.3.o", 
+    "file": "../src/aodv/test/bug-772.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/tutorial/sixth.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/examples/tutorial/sixth.cc.7.o", 
-    "file": "../examples/tutorial/sixth.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/model/object.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/model/object.cc.1.o", 
+    "file": "../src/core/model/object.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -Isrc/dsr -I../src/dsr -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/dsr/model/dsr-fs-header.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/dsr/model/dsr-fs-header.cc.1.o", 
-    "file": "../src/dsr/model/dsr-fs-header.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/flow-monitor/model/ipv4-flow-classifier.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/flow-monitor/model/ipv4-flow-classifier.cc.1.o", 
+    "file": "../src/flow-monitor/model/ipv4-flow-classifier.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -5276,8 +5266,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/mesh/model/dot11s/ie-dot11s-configuration.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/mesh/model/dot11s/ie-dot11s-configuration.cc.1.o", 
-    "file": "../src/mesh/model/dot11s/ie-dot11s-configuration.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/point-to-point/model/point-to-point-channel.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/point-to-point/model/point-to-point-channel.cc.1.o", 
+    "file": "../src/point-to-point/model/point-to-point-channel.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -5286,8 +5276,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/lr-wpan/model/lr-wpan-net-device.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lr-wpan/model/lr-wpan-net-device.cc.1.o", 
-    "file": "../src/lr-wpan/model/lr-wpan-net-device.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/mobility/examples/bonnmotion-ns2-example.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/mobility/examples/bonnmotion-ns2-example.cc.6.o", 
+    "file": "../src/mobility/examples/bonnmotion-ns2-example.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -5323,6 +5313,11 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/tutorial/third.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/examples/tutorial/third.cc.4.o", 
     "file": "../examples/tutorial/third.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/energy/model/simple-device-energy-model.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/energy/model/simple-device-energy-model.cc.1.o", 
+    "file": "../src/energy/model/simple-device-energy-model.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -5371,8 +5366,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/lte/model/lte-vendor-specific-parameters.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/model/lte-vendor-specific-parameters.cc.1.o", 
-    "file": "../src/lte/model/lte-vendor-specific-parameters.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/ipv6/ping6.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/examples/ipv6/ping6.cc.2.o", 
+    "file": "../examples/ipv6/ping6.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -5486,6 +5481,11 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/bridge/examples/csma-bridge.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/bridge/examples/csma-bridge.cc.1.o", 
+    "file": "../src/bridge/examples/csma-bridge.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/uan/model/uan-noise-model-default.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/uan/model/uan-noise-model-default.cc.1.o", 
     "file": "../src/uan/model/uan-noise-model-default.cc"
   }, 
@@ -5506,13 +5506,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/network/utils/crc32.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/network/utils/crc32.cc.1.o", 
-    "file": "../src/network/utils/crc32.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/lte -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/lte/test\"' ../src/lte/test/lte-test-downlink-power-control.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/test/lte-test-downlink-power-control.cc.3.o", 
-    "file": "../src/lte/test/lte-test-downlink-power-control.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/tutorial/sixth.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/examples/tutorial/sixth.cc.7.o", 
+    "file": "../examples/tutorial/sixth.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -5576,8 +5571,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/mobility/examples/bonnmotion-ns2-example.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/mobility/examples/bonnmotion-ns2-example.cc.6.o", 
-    "file": "../src/mobility/examples/bonnmotion-ns2-example.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/applications/model/udp-server.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/applications/model/udp-server.cc.1.o", 
+    "file": "../src/applications/model/udp-server.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -5616,8 +5611,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/applications/helper/udp-echo-helper.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/applications/helper/udp-echo-helper.cc.1.o", 
-    "file": "../src/applications/helper/udp-echo-helper.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/wave/model/channel-coordinator.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/wave/model/channel-coordinator.cc.1.o", 
+    "file": "../src/wave/model/channel-coordinator.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -5646,13 +5641,18 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/lte -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/lte/test\"' ../src/lte/test/lte-test-uplink-sinr.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/test/lte-test-uplink-sinr.cc.3.o", 
-    "file": "../src/lte/test/lte-test-uplink-sinr.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -Isrc/propagation -I../src/propagation -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/propagation/model/itu-r-1411-los-propagation-loss-model.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/propagation/model/itu-r-1411-los-propagation-loss-model.cc.1.o", 
+    "file": "../src/propagation/model/itu-r-1411-los-propagation-loss-model.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/ipv4-list-routing-test-suite.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet/test/ipv4-list-routing-test-suite.cc.3.o", 
     "file": "../src/internet/test/ipv4-list-routing-test-suite.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/mesh/helper/flame/flame-installer.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/mesh/helper/flame/flame-installer.cc.1.o", 
+    "file": "../src/mesh/helper/flame/flame-installer.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -5683,6 +5683,11 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/propagation -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/propagation/test\"' ../src/propagation/test/itu-r-1411-nlos-over-rooftop-test-suite.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/propagation/test/itu-r-1411-nlos-over-rooftop-test-suite.cc.3.o", 
     "file": "../src/propagation/test/itu-r-1411-nlos-over-rooftop-test-suite.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -fno-strict-aliasing -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fvisibility=hidden -Wno-array-bounds -pthread -I. -I.. -Isrc/dsr/bindings -I../src/dsr/bindings -I/usr/include/python2.7 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DNS_DEPRECATED= -DNS3_DEPRECATED_H -DHAVE_PYEXT=1 -D_GNU_SOURCE -DNDEBUG -D_GNU_SOURCE -DHAVE_GSL=1 src/dsr/bindings/ns3module.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/dsr/bindings/ns3module.cc.7.o", 
+    "file": "src/dsr/bindings/ns3module.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -5786,8 +5791,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/wifi/model/wifi-phy.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/wifi/model/wifi-phy.cc.1.o", 
-    "file": "../src/wifi/model/wifi-phy.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/core -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/core/test\"' ../src/core/test/config-test-suite.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/test/config-test-suite.cc.3.o", 
+    "file": "../src/core/test/config-test-suite.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -5871,8 +5876,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/buildings -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/buildings/test\"' ../src/buildings/test/building-position-allocator-test.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/buildings/test/building-position-allocator-test.cc.3.o", 
-    "file": "../src/buildings/test/building-position-allocator-test.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/examples/sample-random-variable-stream.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/examples/sample-random-variable-stream.cc.7.o", 
+    "file": "../src/core/examples/sample-random-variable-stream.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -5883,11 +5888,6 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/routing/simple-routing-ping6.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/examples/routing/simple-routing-ping6.cc.8.o", 
     "file": "../examples/routing/simple-routing-ping6.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -Isrc/propagation -I../src/propagation -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/propagation/model/itu-r-1411-los-propagation-loss-model.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/propagation/model/itu-r-1411-los-propagation-loss-model.cc.1.o", 
-    "file": "../src/propagation/model/itu-r-1411-los-propagation-loss-model.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -5941,8 +5941,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/antenna/model/parabolic-antenna-model.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/antenna/model/parabolic-antenna-model.cc.1.o", 
-    "file": "../src/antenna/model/parabolic-antenna-model.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/mpi/model/null-message-simulator-impl.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/mpi/model/null-message-simulator-impl.cc.1.o", 
+    "file": "../src/mpi/model/null-message-simulator-impl.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -5966,8 +5966,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/mpi/model/mpi-interface.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/mpi/model/mpi-interface.cc.1.o", 
-    "file": "../src/mpi/model/mpi-interface.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/lte -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/lte/test\"' ../src/lte/test/lte-test-downlink-power-control.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/test/lte-test-downlink-power-control.cc.3.o", 
+    "file": "../src/lte/test/lte-test-downlink-power-control.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -6006,8 +6006,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -fno-strict-aliasing -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fvisibility=hidden -Wno-array-bounds -pthread -I. -I.. -Isrc/network/bindings -I../src/network/bindings -I/usr/include/python2.7 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DNS_DEPRECATED= -DNS3_DEPRECATED_H -DHAVE_PYEXT=1 -D_GNU_SOURCE -DNDEBUG -D_GNU_SOURCE -DHAVE_GSL=1 src/network/bindings/ns3module.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/network/bindings/ns3module.cc.7.o", 
-    "file": "src/network/bindings/ns3module.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/lte/examples/lena-fading.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/examples/lena-fading.cc.3.o", 
+    "file": "../src/lte/examples/lena-fading.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -6021,8 +6021,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/uan/model/uan-prop-model-ideal.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/uan/model/uan-prop-model-ideal.cc.1.o", 
-    "file": "../src/uan/model/uan-prop-model-ideal.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/examples/main-ptr.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/examples/main-ptr.cc.3.o", 
+    "file": "../src/core/examples/main-ptr.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -6071,8 +6071,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/mesh/model/dot11s/peer-link-frame.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/mesh/model/dot11s/peer-link-frame.cc.1.o", 
-    "file": "../src/mesh/model/dot11s/peer-link-frame.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/lte -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 '-DNS_TEST_SOURCEDIR=\"src/lte/test\"' ../src/lte/test/lte-test-fdmt-ff-mac-scheduler.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/test/lte-test-fdmt-ff-mac-scheduler.cc.3.o", 
+    "file": "../src/lte/test/lte-test-fdmt-ff-mac-scheduler.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -6101,6 +6101,11 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -fno-strict-aliasing -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fvisibility=hidden -Wno-array-bounds -pthread -I. -I.. -Isrc/network/bindings -I../src/network/bindings -I/usr/include/python2.7 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DNS_DEPRECATED= -DNS3_DEPRECATED_H -DHAVE_PYEXT=1 -D_GNU_SOURCE -DNDEBUG -D_GNU_SOURCE -DHAVE_GSL=1 src/network/bindings/ns3module.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/network/bindings/ns3module.cc.7.o", 
+    "file": "src/network/bindings/ns3module.cc"
+  }, 
+  {
+    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/routing/simple-alternate-routing.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/examples/routing/simple-alternate-routing.cc.6.o", 
     "file": "../examples/routing/simple-alternate-routing.cc"
   }, 
@@ -6118,11 +6123,6 @@
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/internet/helper/ipv4-list-routing-helper.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet/helper/ipv4-list-routing-helper.cc.1.o", 
     "file": "../src/internet/helper/ipv4-list-routing-helper.cc"
-  }, 
-  {
-    "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/model/object.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/core/model/object.cc.1.o", 
-    "file": "../src/core/model/object.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -6166,8 +6166,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/wireless/wifi-clear-channel-cmu.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/examples/wireless/wifi-clear-channel-cmu.cc.3.o", 
-    "file": "../examples/wireless/wifi-clear-channel-cmu.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/mesh/model/dot11s/ie-dot11s-configuration.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/mesh/model/dot11s/ie-dot11s-configuration.cc.1.o", 
+    "file": "../src/mesh/model/dot11s/ie-dot11s-configuration.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -6276,8 +6276,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/mpi/model/null-message-simulator-impl.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/mpi/model/null-message-simulator-impl.cc.1.o", 
-    "file": "../src/mpi/model/null-message-simulator-impl.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/wimax/model/cid-factory.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/wimax/model/cid-factory.cc.1.o", 
+    "file": "../src/wimax/model/cid-factory.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -6326,8 +6326,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -fno-strict-aliasing -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fvisibility=hidden -Wno-array-bounds -pthread -I. -I.. -Isrc/dsr/bindings -I../src/dsr/bindings -I/usr/include/python2.7 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DNS_DEPRECATED= -DNS3_DEPRECATED_H -DHAVE_PYEXT=1 -D_GNU_SOURCE -DNDEBUG -D_GNU_SOURCE -DHAVE_GSL=1 src/dsr/bindings/ns3module.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/dsr/bindings/ns3module.cc.7.o", 
-    "file": "src/dsr/bindings/ns3module.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/lr-wpan/model/lr-wpan-net-device.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lr-wpan/model/lr-wpan-net-device.cc.1.o", 
+    "file": "../src/lr-wpan/model/lr-wpan-net-device.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -6356,8 +6356,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -fno-strict-aliasing -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fvisibility=hidden -Wno-array-bounds -pthread -I. -I.. -Isrc/csma/bindings -I../src/csma/bindings -I/usr/include/python2.7 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DNS_DEPRECATED= -DNS3_DEPRECATED_H -DHAVE_PYEXT=1 -D_GNU_SOURCE -DNDEBUG -D_GNU_SOURCE -DHAVE_GSL=1 src/csma/bindings/ns3module.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/csma/bindings/ns3module.cc.5.o", 
-    "file": "src/csma/bindings/ns3module.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/mobility/model/steady-state-random-waypoint-mobility-model.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/mobility/model/steady-state-random-waypoint-mobility-model.cc.1.o", 
+    "file": "../src/mobility/model/steady-state-random-waypoint-mobility-model.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
@@ -6401,8 +6401,8 @@
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/internet/model/ipv6-extension-demux.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/internet/model/ipv6-extension-demux.cc.1.o", 
-    "file": "../src/internet/model/ipv6-extension-demux.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/lte/model/lte-handover-management-sap.cc -c -o /home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build/src/lte/model/lte-handover-management-sap.cc.1.o", 
+    "file": "../src/lte/model/lte-handover-management-sap.cc"
   }, 
   {
     "directory": "/home/csmajs/dpham073/CS169/CS169FinalProject/ns-allinone-3.25/ns-3.25/build", 
