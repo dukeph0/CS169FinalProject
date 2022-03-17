@@ -25,6 +25,7 @@
 #include "ns3/mobility-module.h"
 #include "ns3/ipv4-global-routing-helper.h"
 #include "ns3/internet-module.h"
+#include "ns3/point-to-point-module.h"
 
 // This example considers two hidden stations in an 802.11n network which supports MPDU aggregation.
 // The user can specify whether RTS/CTS is used and can set the number of aggregated MPDUs.
@@ -49,6 +50,14 @@ NS_LOG_COMPONENT_DEFINE ("SimplesHtHiddenStations");
 
 int main (int argc, char *argv[])
 {
+
+  // Set time resolution
+  Time::SetResolution (Time::NS);
+  // Enable log components and set log levels
+  LogComponentEnable ("UdpEchoClientApplication", LOG_LEVEL_INFO);
+  LogComponentEnable ("UdpEchoServerApplication", LOG_LEVEL_INFO);
+  LogComponentEnable ("UdpEchoClientApplication", LOG_LEVEL_ALL);
+
   uint32_t payloadSize = 1472; //bytes
   uint64_t simulationTime = 10; //seconds
   uint32_t nMpdus = 1;
@@ -80,9 +89,12 @@ int main (int argc, char *argv[])
   Config::SetDefault ("ns3::RangePropagationLossModel::MaxRange", DoubleValue (5));
 
   NodeContainer wifiStaNodes;
-  wifiStaNodes.Create (2);
+  wifiStaNodes.Create (4);
   NodeContainer wifiApNode;
   wifiApNode.Create (1);
+
+  // Create Channel 
+  PointToPointHelper  pointToPoint;
 
   YansWifiChannelHelper channel = YansWifiChannelHelper::Default ();
   channel.AddPropagationLoss ("ns3::RangePropagationLossModel"); //wireless range limited to 5 meters!
@@ -121,9 +133,11 @@ int main (int argc, char *argv[])
   // AP is between the two stations, each station being located at 5 meters from the AP.
   // The distance between the two stations is thus equal to 10 meters.
   // Since the wireless range is limited to 5 meters, the two stations are hidden from each other.
+  positionAlloc->Add (Vector (5.0, 5.0, 0.0));
+  positionAlloc->Add (Vector (5.0, 10.0, 0.0));
+  positionAlloc->Add (Vector (0.0, 5.0, 0.0));
   positionAlloc->Add (Vector (5.0, 0.0, 0.0));
-  positionAlloc->Add (Vector (0.0, 0.0, 0.0));
-  positionAlloc->Add (Vector (10.0, 0.0, 0.0));
+  positionAlloc->Add (Vector (10.0, 5.0, 0.0));
   mobility.SetPositionAllocator (positionAlloc);
 
   mobility.SetMobilityModel ("ns3::ConstantPositionMobilityModel");
@@ -145,20 +159,139 @@ int main (int argc, char *argv[])
   ApInterface = address.Assign (apDevice);
 
   // Setting applications
-  UdpServerHelper myServer (9);
-  ApplicationContainer serverApp = myServer.Install (wifiApNode);
-  serverApp.Start (Seconds (0.0));
-  serverApp.Stop (Seconds (simulationTime + 1));
+  UdpEchoServerHelper myServer (9);
 
-  UdpClientHelper myClient (ApInterface.GetAddress (0), 9);
-  myClient.SetAttribute ("MaxPackets", UintegerValue (4294967295u));
-  myClient.SetAttribute ("Interval", TimeValue (Time ("0.00002"))); //packets/s
-  myClient.SetAttribute ("PacketSize", UintegerValue (payloadSize));
+  // Install four UDP echo server applications on the AP node
+  ApplicationContainer serverApp1 = myServer.Install (wifiApNode.Get (0));
+  serverApp1.Start (Seconds (0.0));
+  serverApp1.Stop (Seconds (simulationTime + 1));
+
+  UdpClientHelper myClient1 (ApInterface.GetAddress (0), 9);
+  myClient1.SetAttribute ("MaxPackets", UintegerValue (4294967295u));
+  myClient1.SetAttribute ("Interval", TimeValue (Time ("0.00002"))); //packets/s
+  myClient1.SetAttribute ("PacketSize", UintegerValue (payloadSize));
+
+  ApplicationContainer serverApp2 = myServer.Install (wifiApNode.Get (1));
+  serverApp2.Start (Seconds (0.0));
+  serverApp2.Stop (Seconds (simulationTime + 1));
+
+  UdpClientHelper myClient2 (ApInterface.GetAddress (1), 9);
+  myClient2.SetAttribute ("MaxPackets", UintegerValue (4294967295u));
+  myClient2.SetAttribute ("Interval", TimeValue (Time ("0.00002"))); //packets/s
+  myClient2.SetAttribute ("PacketSize", UintegerValue (payloadSize));
+
+  ApplicationContainer serverApp3 = myServer.Install (wifiApNode.Get (2));
+  serverApp3.Start (Seconds (0.0));
+  serverApp3.Stop (Seconds (simulationTime + 1));
+
+  UdpClientHelper myClient3 (ApInterface.GetAddress (2), 9);
+  myClient3.SetAttribute ("MaxPackets", UintegerValue (4294967295u));
+  myClient3.SetAttribute ("Interval", TimeValue (Time ("0.00002"))); //packets/s
+  myClient3.SetAttribute ("PacketSize", UintegerValue (payloadSize));
+
+  ApplicationContainer serverApp4 = myServer.Install (wifiApNode.Get (3));
+  serverApp4.Start (Seconds (0.0));
+  serverApp4.Stop (Seconds (simulationTime + 1));
+
+  UdpClientHelper myClient4 (ApInterface.GetAddress (3), 9);
+  myClient4.SetAttribute ("MaxPackets", UintegerValue (4294967295u));
+  myClient4.SetAttribute ("Interval", TimeValue (Time ("0.00002"))); //packets/s
+  myClient4.SetAttribute ("PacketSize", UintegerValue (payloadSize));
+
+  ApplicationContainer serverApp5 = myServer.Install (wifiApNode.Get (4));
+  serverApp5.Start (Seconds (0.0));
+  serverApp5.Stop (Seconds (simulationTime + 1));
+
+  UdpClientHelper myClient5 (ApInterface.GetAddress (4), 9);
+  myClient5.SetAttribute ("MaxPackets", UintegerValue (4294967295u));
+  myClient5.SetAttribute ("Interval", TimeValue (Time ("0.00002"))); //packets/s
+  myClient5.SetAttribute ("PacketSize", UintegerValue (payloadSize));
+  
+
+  // Install four UDP echo client applications on each MS node connecting to 
+  // corresponding server application
+
+  // n1:
+  UdpEchoClientHelper echoClient_MS1 (StaInterface.GetAddress (1), 9);
+  echoClient_MS1.SetAttribute ("MaxPackets", UintegerValue (4294967295u));
+  echoClient_MS1.SetAttribute ("Interval", TimeValue (Time ("0.00002"))); //packets/s
+  echoClient_MS1.SetAttribute ("PacketSize", UintegerValue (payloadSize));
+
+  ApplicationContainer MS1_client0 = echoClient_MS1.Install(wifiStaNodes.Get (0));
+  MS1_client0.Start (Seconds (1.0));
+  MS1_client0.Stop (Seconds (simulationTime + 1));
+  ApplicationContainer MS1_client2 = echoClient_MS1.Install(wifiStaNodes.Get (2));
+  MS1_client2.Start (Seconds (1.0));
+  MS1_client2.Stop (Seconds (simulationTime + 1));
+  ApplicationContainer MS1_client3 = echoClient_MS1.Install(wifiStaNodes.Get (3));
+  MS1_client3.Start (Seconds (1.0));
+  MS1_client3.Stop (Seconds (simulationTime + 1));
+  ApplicationContainer MS1_client4 = echoClient_MS1.Install(wifiStaNodes.Get (4));
+  MS1_client4.Start (Seconds (1.0));
+  MS1_client4.Stop (Seconds (simulationTime + 1));
+
+  // n2:
+  UdpEchoClientHelper echoClient_MS2 (StaInterface.GetAddress (2), 9);
+  echoClient_MS2.SetAttribute ("MaxPackets", UintegerValue (4294967295u));
+  echoClient_MS2.SetAttribute ("Interval", TimeValue (Time ("0.00002"))); //packets/s
+  echoClient_MS2.SetAttribute ("PacketSize", UintegerValue (payloadSize));
+
+  ApplicationContainer MS2_client0 = echoClient_MS2.Install(wifiStaNodes.Get (0));
+  MS2_client0.Start (Seconds (1.0));
+  MS2_client0.Stop (Seconds (simulationTime + 1));
+  ApplicationContainer MS2_client1 = echoClient_MS2.Install(wifiStaNodes.Get (1));
+  MS2_client1.Start (Seconds (1.0));
+  MS2_client1.Stop (Seconds (simulationTime + 1));
+  ApplicationContainer MS2_client3 = echoClient_MS2.Install(wifiStaNodes.Get (3));
+  MS2_client3.Start (Seconds (1.0));
+  MS2_client3.Stop (Seconds (simulationTime + 1));
+  ApplicationContainer MS2_client4 = echoClient_MS2.Install(wifiStaNodes.Get (4));
+  MS2_client4.Start (Seconds (1.0));
+  MS2_client4.Stop (Seconds (simulationTime + 1));
+
+  // n3:
+  UdpEchoClientHelper echoClient_MS3 (StaInterface.GetAddress (3), 9);
+  echoClient_MS3.SetAttribute ("MaxPackets", UintegerValue (4294967295u));
+  echoClient_MS3.SetAttribute ("Interval", TimeValue (Time ("0.00002"))); //packets/s
+  echoClient_MS3.SetAttribute ("PacketSize", UintegerValue (payloadSize));
+
+  ApplicationContainer MS3_client0 = echoClient_MS3.Install(wifiStaNodes.Get (0));
+  MS3_client0.Start (Seconds (1.0));
+  MS3_client0.Stop (Seconds (simulationTime + 1));
+  ApplicationContainer MS3_client1 = echoClient_MS3.Install(wifiStaNodes.Get (1));
+  MS3_client1.Start (Seconds (1.0));
+  MS3_client1.Stop (Seconds (simulationTime + 1));
+  ApplicationContainer MS3_client2 = echoClient_MS3.Install(wifiStaNodes.Get (2));
+  MS3_client2.Start (Seconds (1.0));
+  MS3_client2.Stop (Seconds (simulationTime + 1));
+  ApplicationContainer MS3_client4 = echoClient_MS3.Install(wifiStaNodes.Get (4));
+  MS3_client4.Start (Seconds (1.0));
+  MS3_client4.Stop (Seconds (simulationTime + 1));
+
+  // ns4:
+  UdpEchoClientHelper echoClient_MS4 (StaInterface.GetAddress (4), 9);
+  echoClient_MS4.SetAttribute ("MaxPackets", UintegerValue (4294967295u));
+  echoClient_MS4.SetAttribute ("Interval", TimeValue (Time ("0.00002"))); //packets/s
+  echoClient_MS4.SetAttribute ("PacketSize", UintegerValue (payloadSize));
+
+  ApplicationContainer MS4_client0 = echoClient_MS4.Install(wifiStaNodes.Get (0));
+  MS4_client0.Start (Seconds (1.0));
+  MS4_client0.Stop (Seconds (simulationTime + 1));
+  ApplicationContainer MS4_client1 = echoClient_MS4.Install(wifiStaNodes.Get (1));
+  MS4_client1.Start (Seconds (1.0));
+  MS4_client1.Stop (Seconds (simulationTime + 1));
+  ApplicationContainer MS4_client2 = echoClient_MS4.Install(wifiStaNodes.Get (2));
+  MS4_client2.Start (Seconds (1.0));
+  MS4_client2.Stop (Seconds (simulationTime + 1));
+  ApplicationContainer MS4_client3 = echoClient_MS4.Install(wifiStaNodes.Get (3));
+  MS4_client3.Start (Seconds (1.0));
+  MS4_client3.Stop (Seconds (simulationTime + 1));
+
 
   // Saturated UDP traffic from stations to AP
-  ApplicationContainer clientApp1 = myClient.Install (wifiStaNodes);
-  clientApp1.Start (Seconds (1.0));
-  clientApp1.Stop (Seconds (simulationTime + 1));
+  // ApplicationContainer clientApp1 = myClient1.Install (wifiStaNodes);
+  // clientApp1.Start (Seconds (1.0));
+  // clientApp1.Stop (Seconds (simulationTime + 1));
 
   phy.EnablePcap ("SimpleHtHiddenStations_Ap", apDevice.Get (0));
   phy.EnablePcap ("SimpleHtHiddenStations_Sta1", staDevices.Get (0));
