@@ -160,7 +160,7 @@ int main (int argc, char *argv[])
   ApInterface = address.Assign (apDevice);
 
 
-  char interval = "0.1";
+  char interval[] = "0.1";
 
   // Setting applications
 
