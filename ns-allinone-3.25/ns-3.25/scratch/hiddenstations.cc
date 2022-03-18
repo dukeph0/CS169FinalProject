@@ -160,48 +160,26 @@ int main (int argc, char *argv[])
   ApInterface = address.Assign (apDevice);
 
 
-  char interval[] = "0.1";
+  char interval = "0.1";
 
   // Setting applications
-  // UdpServerHelper myServer (9);
-
-  // ApplicationContainer serverApp1 = myServer.Install (wifiApNode.Get(0));
-  // serverApp1.Start (Seconds (0.0));
-  // serverApp1.Stop (Seconds (simulationTime + 1));
-
-  // ApplicationContainer serverApp2 = myServer.Install (wifiApNode.Get(0));
-  // serverApp2.Start (Seconds (0.0));
-  // serverApp2.Stop (Seconds (simulationTime + 1)); 
-
-  // ApplicationContainer serverApp3 = myServer.Install (wifiApNode.Get(0));
-  // serverApp3.Start (Seconds (0.0));
-  // serverApp3.Stop (Seconds (simulationTime + 1));
-
-  // ApplicationContainer serverApp4 = myServer.Install (wifiApNode.Get(0));
-  // serverApp4.Start (Seconds (0.0));
-  // serverApp4.Stop (Seconds (simulationTime + 1));
-
-  // UdpClientHelper myClient (ApInterface.GetAddress (0), 9);
-  // myClient.SetAttribute ("MaxPackets", UintegerValue (4294967295u));
-  // myClient.SetAttribute ("Interval", TimeValue (Time (interval))); //packets/s
-  // myClient.SetAttribute ("PacketSize", UintegerValue (payloadSize));
 
   // Install four UDP echo server applications on the AP node
   UdpEchoServerHelper echoServer (9);
 
-  ApplicationContainer echoApp1 = echoServer.Install (wifiApNode.Get (0));
+  ApplicationContainer echoApp1 = echoServer.Install (wifiApNode.Get(0));
   echoApp1.Start (Seconds (0.0));
   echoApp1.Stop (Seconds (simulationTime + 1));
 
-  ApplicationContainer echoApp2 = echoServer.Install (wifiApNode.Get (0));
+  ApplicationContainer echoApp2 = echoServer.Install (wifiApNode.Get(0));
   echoApp2.Start (Seconds (0.0));
   echoApp2.Stop (Seconds (simulationTime + 1));
 
-  ApplicationContainer echoApp3 = echoServer.Install (wifiApNode.Get (0));
+  ApplicationContainer echoApp3 = echoServer.Install (wifiApNode.Get(0));
   echoApp3.Start (Seconds (0.0));
   echoApp3.Stop (Seconds (simulationTime + 1));
 
-  ApplicationContainer echoApp4 = echoServer.Install (wifiApNode.Get (0));
+  ApplicationContainer echoApp4 = echoServer.Install (wifiApNode.Get(0));
   echoApp4.Start (Seconds (0.0));
   echoApp4.Stop (Seconds (simulationTime + 1));
 
@@ -217,15 +195,7 @@ int main (int argc, char *argv[])
   ApplicationContainer MS1_client0 = echoClient_MS1.Install(wifiStaNodes.Get (0));
   MS1_client0.Start (Seconds (1.0));
   MS1_client0.Stop (Seconds (simulationTime + 1));
-  ApplicationContainer MS1_client2 = echoClient_MS1.Install(wifiStaNodes.Get (2));
-  MS1_client2.Start (Seconds (1.0));
-  MS1_client2.Stop (Seconds (simulationTime + 1));
-  ApplicationContainer MS1_client3 = echoClient_MS1.Install(wifiStaNodes.Get (3));
-  MS1_client3.Start (Seconds (1.0));
-  MS1_client3.Stop (Seconds (simulationTime + 1));
-  ApplicationContainer MS1_client4 = echoClient_MS1.Install(wifiStaNodes.Get (4));
-  MS1_client4.Start (Seconds (1.0));
-  MS1_client4.Stop (Seconds (simulationTime + 1));
+  
 
   // n2:
   UdpEchoClientHelper echoClient_MS2 (StaInterface.GetAddress (2), 9);
@@ -236,15 +206,7 @@ int main (int argc, char *argv[])
   ApplicationContainer MS2_client0 = echoClient_MS2.Install(wifiStaNodes.Get (0));
   MS2_client0.Start (Seconds (1.0));
   MS2_client0.Stop (Seconds (simulationTime + 1));
-  ApplicationContainer MS2_client1 = echoClient_MS2.Install(wifiStaNodes.Get (1));
-  MS2_client1.Start (Seconds (1.0));
-  MS2_client1.Stop (Seconds (simulationTime + 1));
-  ApplicationContainer MS2_client3 = echoClient_MS2.Install(wifiStaNodes.Get (3));
-  MS2_client3.Start (Seconds (1.0));
-  MS2_client3.Stop (Seconds (simulationTime + 1));
-  ApplicationContainer MS2_client4 = echoClient_MS2.Install(wifiStaNodes.Get (4));
-  MS2_client4.Start (Seconds (1.0));
-  MS2_client4.Stop (Seconds (simulationTime + 1));
+  
 
   // n3:
   UdpEchoClientHelper echoClient_MS3 (StaInterface.GetAddress (3), 9);
@@ -255,15 +217,6 @@ int main (int argc, char *argv[])
   ApplicationContainer MS3_client0 = echoClient_MS3.Install(wifiStaNodes.Get (0));
   MS3_client0.Start (Seconds (1.0));
   MS3_client0.Stop (Seconds (simulationTime + 1));
-  ApplicationContainer MS3_client1 = echoClient_MS3.Install(wifiStaNodes.Get (1));
-  MS3_client1.Start (Seconds (1.0));
-  MS3_client1.Stop (Seconds (simulationTime + 1));
-  ApplicationContainer MS3_client2 = echoClient_MS3.Install(wifiStaNodes.Get (2));
-  MS3_client2.Start (Seconds (1.0));
-  MS3_client2.Stop (Seconds (simulationTime + 1));
-  ApplicationContainer MS3_client4 = echoClient_MS3.Install(wifiStaNodes.Get (4));
-  MS3_client4.Start (Seconds (1.0));
-  MS3_client4.Stop (Seconds (simulationTime + 1));
 
   // ns4:
   UdpEchoClientHelper echoClient_MS4 (StaInterface.GetAddress (4), 9);
@@ -274,15 +227,6 @@ int main (int argc, char *argv[])
   ApplicationContainer MS4_client0 = echoClient_MS4.Install(wifiStaNodes.Get (0));
   MS4_client0.Start (Seconds (1.0));
   MS4_client0.Stop (Seconds (simulationTime + 1));
-  ApplicationContainer MS4_client1 = echoClient_MS4.Install(wifiStaNodes.Get (1));
-  MS4_client1.Start (Seconds (1.0));
-  MS4_client1.Stop (Seconds (simulationTime + 1));
-  ApplicationContainer MS4_client2 = echoClient_MS4.Install(wifiStaNodes.Get (2));
-  MS4_client2.Start (Seconds (1.0));
-  MS4_client2.Stop (Seconds (simulationTime + 1));
-  ApplicationContainer MS4_client3 = echoClient_MS4.Install(wifiStaNodes.Get (3));
-  MS4_client3.Start (Seconds (1.0));
-  MS4_client3.Stop (Seconds (simulationTime + 1));
 
 
   // Saturated UDP traffic from stations to AP
@@ -293,6 +237,9 @@ int main (int argc, char *argv[])
   phy.EnablePcap ("SimpleHtHiddenStations_Ap", apDevice.Get (0));
   phy.EnablePcap ("SimpleHtHiddenStations_Sta1", staDevices.Get (0));
   phy.EnablePcap ("SimpleHtHiddenStations_Sta2", staDevices.Get (1));
+  phy.EnablePcap ("SimpleHtHiddenStations_Sta3", staDevices.Get (2));
+  phy.EnablePcap ("SimpleHtHiddenStations_Sta4", staDevices.Get (3));
+  phy.EnablePcap ("SimpleHtHiddenStations_Sta5", staDevices.Get (4));
 
   Simulator::Stop (Seconds (simulationTime + 1));
 
