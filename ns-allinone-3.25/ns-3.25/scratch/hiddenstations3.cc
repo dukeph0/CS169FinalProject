@@ -47,14 +47,29 @@ using namespace ns3;
 
 NS_LOG_COMPONENT_DEFINE ("SimplesHtHiddenStations");
 
+void RxTrace (std::string context, Ptr<const Packet> pkt, const Address& a, const Address& b){
+  std::cout << context << std::endl;
+  std::cout << "\tRxTrace: size = " << pkt->GetSize()
+    << " From Address: " << InetSocketAddress::ConvertFrom(a).GetIpv4() 
+    << " LocalAddress: " << InetSocketAddress::ConvertFrom(b).GetIpv4() << std::endl;
+}
+
 int main (int argc, char *argv[])
 {
+
+  // Set time resolution
+  Time::SetResolution (Time::NS);
+  // Enable log components and set log levels
+  LogComponentEnable ("UdpEchoClientApplication", LOG_LEVEL_INFO);
+  LogComponentEnable ("UdpEchoServerApplication", LOG_LEVEL_INFO);
+  LogComponentEnable ("UdpEchoClientApplication", LOG_LEVEL_ALL);
+
   uint32_t payloadSize = 1472; //bytes
   uint64_t simulationTime = 10; //seconds
   uint32_t nMpdus = 1;
   uint32_t maxAmpduSize = 0;
   bool enableRts = 0;
-  uint32_t nPackets = 0;
+  uint32_t nPackets = 0; // set to infinity
 
   CommandLine cmd;
   cmd.AddValue ("nMpdus", "Number of aggregated MPDUs", nMpdus);
@@ -82,7 +97,7 @@ int main (int argc, char *argv[])
   Config::SetDefault ("ns3::RangePropagationLossModel::MaxRange", DoubleValue (5));
 
   NodeContainer wifiStaNodes;
-  wifiStaNodes.Create (4);
+  wifiStaNodes.Create (4); // increase ms nodes to four
   NodeContainer wifiApNode;
   wifiApNode.Create (1);
 
@@ -120,9 +135,7 @@ int main (int argc, char *argv[])
   MobilityHelper mobility;
   Ptr<ListPositionAllocator> positionAlloc = CreateObject<ListPositionAllocator> ();
 
-  // AP is between the two stations, each station being located at 5 meters from the AP.
-  // The distance between the two stations is thus equal to 10 meters.
-  // Since the wireless range is limited to 5 meters, the two stations are hidden from each other.
+  // Create MS and AP locations to project specifications
   positionAlloc->Add (Vector (5.0, 5.0, 0.0));
   positionAlloc->Add (Vector (5.0, 10.0, 0.0));
   positionAlloc->Add (Vector (0.0, 5.0, 0.0));
@@ -149,42 +162,42 @@ int main (int argc, char *argv[])
   ApInterface = address.Assign (apDevice);
 
   // Setting applications
-  UdpServerHelper myServer (9);
+  UdpEchoServerHelper myServer (9);
 
-  ApplicationContainer serverApp = myServer.Install (wifiApNode);
+  ApplicationContainer serverApp = myServer.Install (wifiApNode.Get(0));
   serverApp.Start (Seconds (0.0));
   serverApp.Stop (Seconds (simulationTime + 1));
 
-  ApplicationContainer serverApp2 = myServer.Install (wifiApNode);
+  ApplicationContainer serverApp2 = myServer.Install (wifiApNode.Get(0));
   serverApp2.Start (Seconds (0.0));
   serverApp2.Stop (Seconds (simulationTime + 1));
 
-  ApplicationContainer serverApp3 = myServer.Install (wifiApNode);
+  ApplicationContainer serverApp3 = myServer.Install (wifiApNode).Get(0);
   serverApp3.Start (Seconds (1.0));
   serverApp3.Stop (Seconds (simulationTime + 1));
 
-  ApplicationContainer serverApp4 = myServer.Install (wifiApNode);
+  ApplicationContainer serverApp4 = myServer.Install (wifiApNode.Get(0));
   serverApp4.Start (Seconds (1.0));
   serverApp4.Stop (Seconds (simulationTime + 1));
 
-  UdpClientHelper myClient (ApInterface.GetAddress (0), 9);
+  UdpEchoClientHelper myClient (ApInterface.GetAddress (0), 9);
   myClient.SetAttribute ("MaxPackets", UintegerValue (nPackets));
-  myClient.SetAttribute ("Interval", TimeValue (Time ("0.01"))); //packets/s
+  myClient.SetAttribute ("Interval", TimeValue (Time ("0.1"))); //packets/s
   myClient.SetAttribute ("PacketSize", UintegerValue (payloadSize));
 
-  UdpClientHelper myClient2 (ApInterface.GetAddress (0), 6);
+  UdpEchoClientHelper myClient2 (ApInterface.GetAddress (0), 10);
   myClient2.SetAttribute ("MaxPackets", UintegerValue (nPackets));
-  myClient2.SetAttribute ("Interval", TimeValue (Time ("0.01"))); //packets/s
+  myClient2.SetAttribute ("Interval", TimeValue (Time ("0.1"))); //packets/s
   myClient2.SetAttribute ("PacketSize", UintegerValue (payloadSize));
 
-  UdpClientHelper myClient3 (ApInterface.GetAddress (0), 3);
+  UdpEchoClientHelper myClient3 (ApInterface.GetAddress (0), 11);
   myClient3.SetAttribute ("MaxPackets", UintegerValue (nPackets));
-  myClient3.SetAttribute ("Interval", TimeValue (Time ("0.01"))); //packets/s
+  myClient3.SetAttribute ("Interval", TimeValue (Time ("0.1"))); //packets/s
   myClient3.SetAttribute ("PacketSize", UintegerValue (payloadSize));
 
-  UdpClientHelper myClient4 (ApInterface.GetAddress (0), 1);
+  UdpEchoClientHelper myClient4 (ApInterface.GetAddress (0), 12);
   myClient4.SetAttribute ("MaxPackets", UintegerValue (nPackets));
-  myClient4.SetAttribute ("Interval", TimeValue (Time ("0.01"))); //packets/s
+  myClient4.SetAttribute ("Interval", TimeValue (Time ("0.1"))); //packets/s
   myClient4.SetAttribute ("PacketSize", UintegerValue (payloadSize));
 
 
@@ -194,17 +207,21 @@ int main (int argc, char *argv[])
   clientApp1.Stop (Seconds (simulationTime + 1));
 
   ApplicationContainer clientApp2 = myClient2.Install (wifiStaNodes.Get(1));
-  clientApp2.Start (Seconds (1.0));
+  clientApp2.Start (Seconds (2.0));
   clientApp2.Stop (Seconds (simulationTime + 1));
 
   ApplicationContainer clientApp3 = myClient3.Install (wifiStaNodes.Get(2));
-  clientApp3.Start (Seconds (1.0));
+  clientApp3.Start (Seconds (3.0));
   clientApp3.Stop (Seconds (simulationTime + 1));
 
   ApplicationContainer clientApp4 = myClient4.Install (wifiStaNodes.Get(3));
-  clientApp4.Start (Seconds (1.0));
+  clientApp4.Start (Seconds (4.0));
   clientApp4.Stop (Seconds (simulationTime + 1));
 
+  Config::Set("/NodeList/*/ApplicationList/*/$ns3::UdpEchoClient/MaxPackets", UintegerValue(3));
+
+  Config::Connect ("/NodeList/*/ApplicationList/*/$ns3::UdpEchoClient/RxWithAddresses", MakeCallback(&RxTrace)); // 
+  // Config::Connect ("/NodeList/*/ApplicationList/*/$ns3::UdpEchoClient/TxWithAddresses", MakeCallback(&TxTrace));
 
   phy.EnablePcap ("SimpleHtHiddenStations_Ap", apDevice.Get (0));
   phy.EnablePcap ("SimpleHtHiddenStations_Sta1", staDevices.Get (0));
@@ -217,22 +234,24 @@ int main (int argc, char *argv[])
   Simulator::Run ();
   Simulator::Destroy ();
 
-  uint32_t totalPacketsThrough = DynamicCast<UdpServer> (serverApp.Get (0))->GetReceived ();
-  double throughput = totalPacketsThrough * payloadSize * 8 / (simulationTime * 1000000.0);
-  std::cout << "ServerApp1 Throughput: " << throughput << " Mbit/s" << '\n';
 
 
-  uint32_t totalPacketsThrough2 = DynamicCast<UdpServer> (serverApp2.Get (0))->GetReceived ();
-  double throughput2 = totalPacketsThrough2 * payloadSize * 8 / (simulationTime * 1000000.0);
-  std::cout << "ServerApp2 Throughput: " << throughput2 << " Mbit/s" << '\n';
+  // uint32_t totalPacketsThrough = DynamicCast<UdpServer> (serverApp.Get (0))->GetReceived ();
+  // uint32_t totalPacketsThrough = 
+  // double throughput = totalPacketsThrough * payloadSize * 8 / (simulationTime * 1000000.0);
+  // std::cout << "ServerApp1 Throughput: " << throughput << " Mbit/s" << '\n';
 
-  uint32_t totalPacketsThrough3 = DynamicCast<UdpServer> (serverApp3.Get (0))->GetReceived ();
-  double throughput3 = totalPacketsThrough3 * payloadSize * 8 / (simulationTime * 1000000.0);
-  std::cout << "ServerApp3 Throughput: " << throughput3 << " Mbit/s" << '\n';
+  // uint32_t totalPacketsThrough2 = DynamicCast<UdpServer> (serverApp2.Get (0))->GetReceived ();
+  // double throughput2 = totalPacketsThrough2 * payloadSize * 8 / (simulationTime * 1000000.0);
+  // std::cout << "ServerApp2 Throughput: " << throughput2 << " Mbit/s" << '\n';
 
-  uint32_t totalPacketsThrough4 = DynamicCast<UdpServer> (serverApp3.Get (0))->GetReceived ();
-  double throughput4 = totalPacketsThrough4 * payloadSize * 8 / (simulationTime * 1000000.0);
-  std::cout << "ServerApp4 Throughput: " << throughput4 << " Mbit/s" << '\n';
+  // uint32_t totalPacketsThrough3 = DynamicCast<UdpServer> (serverApp3.Get (0))->GetReceived ();
+  // double throughput3 = totalPacketsThrough3 * payloadSize * 8 / (simulationTime * 1000000.0);
+  // std::cout << "ServerApp3 Throughput: " << throughput3 << " Mbit/s" << '\n';
+
+  // uint32_t totalPacketsThrough4 = DynamicCast<UdpServer> (serverApp4.Get (0))->GetReceived ();
+  // double throughput4 = totalPacketsThrough4 * payloadSize * 8 / (simulationTime * 1000000.0);
+  // std::cout << "ServerApp4 Throughput: " << throughput4 << " Mbit/s" << '\n';
   
 
   return 0;
